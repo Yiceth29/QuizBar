@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El guayabero</title>
+    <link rel="icon" href="icon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <center><h1> El guayabero </h1></center>
+        </div>
+        <div class="row">
+            
+            <form>
+                <div class="mb-3">
+                  <label for="inputNombre" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="inputNombre">                
+                </div>
+                <div class="mb-3">
+                  <label for="inputApellido" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="inputApellido">
+                </div>
+                <div class="mb-3">
+                    <label for="inputEdad" class="form-label">Edad</label>
+                    <input type="number" class="form-control" id="inputEdad">
+                </div>
+                <div class="mb-3">
+                    <label for="inputSangre" class="form-label">Tipo de Sangre</label>
+                    <input type="text" class="form-control" id="inputSangre">
+                </div>
+                <div class="mb-3">
+                    <label for="inputRh" class="form-label">RH</label>
+                    <input type="text" class="form-control" id="inputRh">
+                </div>
+                <div class="mb-3">
+                    <label for="inputTelefono" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="inputTelefono">
+                </div>
+
+                <button type="submit" class="btn btn-primary" onclick="generarCarnet()">Generar carnet</button>
+            </form>
+        </div>     
+    </div>
+</body>
+</html>
